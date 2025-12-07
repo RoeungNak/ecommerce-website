@@ -34,7 +34,6 @@ import CreateProduct from "./dashborad/admins/product/CreateProduct";
 import EditProduct from "./dashborad/admins/product/EditProduct";
 import ViewProduct from "./dashborad/admins/product/ViewProduct";
 import AdminLogin from "./dashborad/admins/AdminLogin";
-import Profile from "./pages/profile";
 import { RequireAuth } from "./dashborad/admins/RequireAuth";
 import Confirmation from "./pages/Confirmation";
 import ShowOrders from "./dashborad/admins/order/ShowOrders";
@@ -258,14 +257,7 @@ const AppRoutes = () => {
         {/* account */}
         <Route path="/account/login" element={<Login />} />
         <Route path="/account/register" element={<SignUp />} />
-        <Route
-          path="/account"
-          element={
-            <RequireAuth>
-              <Profile />
-            </RequireAuth>
-          }
-        />
+
         <Route
           path="/account/orders"
           element={
