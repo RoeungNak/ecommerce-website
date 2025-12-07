@@ -8,7 +8,7 @@ import {
   TrashIcon,
 } from "@heroicons/react/24/outline";
 import { adminToken, apiUrl } from "../../../context/http";
-import Loading from "./loading";
+import Loading from "./LoadingPage";
 
 const Show = () => {
   const [categories, setCategories] = useState([]);

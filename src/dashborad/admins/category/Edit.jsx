@@ -4,7 +4,7 @@ import Layout from "../../component_dashboard/Layout";
 import { useForm } from "react-hook-form";
 import { adminToken, apiUrl } from "../../../context/http";
 import Swal from "sweetalert2";
-import Loading from "./loading";
+import Loading from "./LoadingPage";
 
 const Edit = () => {
   const params = useParams();

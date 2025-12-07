@@ -15,7 +15,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { adminToken, apiUrl } from "../../../context/http";
-import Loading from "../category/Loading";
+import Loading from "../category/LoadingPage";
 import ExcelJS from "exceljs";
 import { saveAs } from "file-saver";
 

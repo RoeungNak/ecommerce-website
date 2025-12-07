@@ -3,7 +3,7 @@ import { Link, useParams, useNavigate } from "react-router-dom";
 import Layout from "../../component_dashboard/Layout";
 import { adminToken, apiUrl } from "../../../context/http";
 import Swal from "sweetalert2";
-import Loading from "../category/Loading";
+import Loading from "../category/LoadingPage";
 
 const ViewProduct = () => {
   const { id } = useParams();
